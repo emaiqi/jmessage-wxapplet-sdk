@@ -3,7 +3,7 @@
 本文说明如何在小程序中集成JMessage。jmessage-wxapplet-sdk是JMessage专门为适配小程序应用而开发的，其功能基本涵盖所有[WEB SDK](https://docs.jiguang.cn/jmessage/client/im_sdk_js_v2/)所提供的功能
 
 
-##项目配置
+## 项目配置
 
 socket合法域名：wss://ws.im.jiguang.cn
 
@@ -12,7 +12,7 @@ uploadFile合法域名：https://sdk.im.jiguang.cn
 downloadFile合法域名：https://dl.im.jiguang.cn
 
 
-##使用
+## 使用
 
 1.下载jmessage-wxapplet-sdk.js,移动到libs目录下
 
@@ -47,7 +47,7 @@ var jim = new JMessage({
 
 所有api操作跟WEB SDK类似，可以直接参考[WEB SDK API](https://docs.jiguang.cn/jmessage/client/im_sdk_js_v2/)
 
-##其他说明
+## 其他说明
 
 1. 小程序不支持文件传输，所以单聊以及群聊文件发送相关api不可用
 
